@@ -1,0 +1,14 @@
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition-property: width; /*Safari*/
+    -webkit-transition-duration: 2s; /*Safari*/
+    transition-property: width /*,height*/;
+    transition-duration: 2s;
+  }
+  
+  div:hover {
+    width: 500px;
+    /*height:300px;*/
+  }

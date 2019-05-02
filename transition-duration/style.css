@@ -1,0 +1,36 @@
+.box {
+  width: 150px;
+  height: 150px;
+  background: goldenrod;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+.box:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.uni {
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  -o-transition-property: background-color;
+  transition-property: background-color;
+}
+
+
+
+
+
+/*Para ter compatibilidade com todos os navegadores, deve-se usar a declaração padrão abaixo*/
+.example {
+  -webkit-transition-duration: 700ms;
+  -moz-transition-duration: 700ms;
+  -o-transition-duration: 700ms;
+  transition-duration: 700ms;
+}

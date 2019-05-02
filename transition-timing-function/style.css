@@ -1,0 +1,46 @@
+body {
+    padding: 2em;
+  }
+  
+  .box {
+    height: 50px;
+    width: 50px;
+    background-color: #414141;
+    transform: translateX(0);
+    transition: transform 1s linear;
+  }
+  
+  .end-state .box {
+    transform: translateX(400px);
+  }
+  
+  .ease-out {
+    transition-timing-function: ease-out;
+  }
+  
+  .ease-in {
+    transition-timing-function: ease-in;
+  }
+  
+  .ease {
+    transition-timing-function: ease;
+  }
+  
+  .ease-in-out {
+    transition-timing-function: ease-in-out;
+  }
+  
+  section {
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px dotted black;
+    width: 450px;
+  }
+  
+  button {
+    margin-left: 45%;
+    margin-top: 1%;
+    font-size: 1.4em;
+    padding: 0.5em 0.75em;
+  }
